@@ -233,7 +233,7 @@
 }
 .older::before{
     position: absolute;
-    content: url(/img/arrow.svg);
+    content: url(./img/arrow.svg);
     transform: rotate(180deg);
     left: 29px;
     top: 17px;
@@ -241,7 +241,7 @@
 }
 .next::after{
     position: absolute;
-    content: url(/img/arrow.svg);
+    content: url(./img/arrow.svg);
     right: 29px;
     top: 17px;
     opacity: 1;
