@@ -210,7 +210,7 @@
     display: flex;
     outline: 2px #E5E5E5 solid;
     align-self: center;
-    max-width: 509px;
+    max-width: 492px;
     margin: 0 auto;
 }
 .pagination{
@@ -233,7 +233,7 @@
 }
 .older::before{
     position: absolute;
-    content: url(./img/arrow.svg);
+    content: url(../img/arrow.svg);
     transform: rotate(180deg);
     left: 29px;
     top: 17px;
@@ -241,14 +241,13 @@
 }
 .next::after{
     position: absolute;
-    content: url(./img/arrow.svg);
+    content: url(../img/arrow.svg);
     right: 29px;
     top: 17px;
     opacity: 1;
 }
 .next{
     padding-right: 39px;
-    content: url(/img/arrow.svg);
 }
 .pagination-link:hover{
     background-color: #C9A96E;
